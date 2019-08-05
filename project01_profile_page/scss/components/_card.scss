@@ -1,0 +1,24 @@
+.card {
+  margin: 30px auto;
+  padding: 20px 40px 40px;
+  max-width: 850px;
+  text-align: left;
+  background: $mercury;
+  border-bottom: 4px solid $silver;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card:hover {
+  border-color: $color-border;
+}
+
+.card #center {
+  @extend %centered;
+}
+
+.team-treehouse h2 {
+  font-family: inherit;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}

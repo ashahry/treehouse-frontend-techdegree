@@ -1,0 +1,62 @@
+/**********************
+Header Section
+***********************/
+
+
+
+.fullscreen-image-content {
+  text-align: center;
+  background: url('../images/desk2.jpg') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+header {
+
+  & .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    transition: all .5s;
+  }
+
+  & .profile-image:hover {
+    transform: scale(1.2) rotate(5deg);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+  & h1 {
+    font-family: $stack-varela;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: $white;
+    padding: 0;
+    margin: 0;
+  }
+
+  & h2 {
+    color: $white;
+    font-style: italic;
+    font-family: 'Livory';
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 35px;
+
+  }
+
+}

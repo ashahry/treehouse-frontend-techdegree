@@ -1,0 +1,32 @@
+
+
+
+@media (min-width: 768px) {
+
+/*Styling the portfolio with inline-block*/
+
+  .col {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-right: -4px;
+    padding-left: 1em;
+    padding-right: 1em;
+    list-style: none;
+    margin-top: 1em;
+  }
+
+
+  h3 {
+    font-size: 1.28rem;
+  }
+
+  main h2 {
+    font-size: 1.75em;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+}

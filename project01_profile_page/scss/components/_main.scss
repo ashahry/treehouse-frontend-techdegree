@@ -1,0 +1,49 @@
+main {
+
+  & h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  & .resume h2 {
+    color: #fff;
+    font-style: italic;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 220px;
+    font-weight: 400;
+  }
+
+
+  & .contact h2 {
+    color: $white;
+    font-style: italic;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 220px;
+    font-weight: 400;
+  }
+
+  & .contact h1 {
+    font-family: 'Varela Round', sans-serif;
+      font-size: 50px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-weight: 700;
+      color: $white;
+      padding: 0;
+      margin: 0;
+  }
+
+}
