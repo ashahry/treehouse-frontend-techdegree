@@ -1,0 +1,26 @@
+/*********************
+GALLERY
+**********************/
+#gallery {
+
+  & a:hover {
+    color: $color-border;
+  }
+
+  & {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  & li a p {
+    margin: 0;
+    padding: 5%;
+    color: #000;
+  }
+
+  @media #{$brk-narrow} {
+    font-size: 1em;
+  }
+
+}

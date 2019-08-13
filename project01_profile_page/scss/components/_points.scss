@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.group:after {content:""; display:table;clear:both;}
+
+.refferal {
+
+  margin-top: 2em;
+}
+
+// pie chart
+.pieChart {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1em;
+  margin-left: 2em;
+}
+
+// pie
+.pie {
+  height: $size-circle;
+  width: $size-circle;
+  position: relative;
+  float:left;
+  margin-left: 1em;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 999;
+    width: $size-inner;
+    height: $size-inner;
+    background: $color-background;
+    border-radius: 50%;
+    top: $size-thickness;
+    left: $size-thickness;
+  }
+}
+
+.slice {
+  position: absolute;
+  width: 100%;
+  height: $size-circle;
+  clip: rect(0px, $size-circle, $size-circle, $size-circle/2);
+  animation: bake-pie 1s;
+
+  span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $black;
+    width: $size-circle;
+    height: $size-circle;
+    border-radius: 50%;
+    clip: rect(0px, $size-circle, $size-circle, $size-circle/2);
+  }
+}
+
+// legend
+.legend {
+  width: 14em;
+  padding-left: 1em;
+  float:left;
+
+
+  ul {
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 0.8em;
+    margin-top: 3em;
+  }
+  li {
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid $black;
+  }
+  em {
+    font-style: normal;
+  }
+  span {
+    float: right;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .legend {
+    margin-left: 5em;
+  }
+
+  .pie {
+    margin-top: 4em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .legend {
+    margin-left: 9em;
+  }
+
+  .pie {
+    margin-top: 4em;
+    margin-left: 4em;
+  }
+}

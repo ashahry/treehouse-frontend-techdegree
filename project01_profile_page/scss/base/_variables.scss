@@ -1,0 +1,37 @@
+// Descriptive color variables
+
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+$mercury        : #e6e6e6;
+$silver         : #ccc;
+$dusty_gray     : #999;
+
+
+
+
+
+// Functional color variables
+
+$color-border   : #5CB860;
+$color-background: #f9f9f9;
+$color-primary: #222222;
+
+// Sizes
+
+$size-circle: 12.5em;
+$size-thickness: 2.5em;
+$size-inner: $size-circle - $size-thickness * 2;
+
+// Fonts
+
+$stack-montserray   :  'Montserrat';
+$stack-sans-serif   :   sans-serif;
+$stack-serif        :   serif;
+$stack-old-standard :  'Old Standard TT';
+$stack-varela       :  'Varela Round', sans-serif;
+
+// Media query
+
+$brk-narrow : '(min-width: 769px)';

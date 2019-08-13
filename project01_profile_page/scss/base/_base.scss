@@ -1,0 +1,33 @@
+/*********************
+GENERAL
+***********************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.team-treehouse {
+
+    h1, h2 {
+      text-align: center;
+    }
+    h2 {
+      font-weight: normal;
+    }
+
+}
