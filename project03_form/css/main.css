@@ -1,0 +1,291 @@
+
+/*=========================
+GENERAL
+===========================*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*=======================
+MAIN HEADER
+==========================*/
+
+header{
+  width: 100%;
+  top: 0;
+  background: #102c3a;
+  color: #fff;
+  padding: 1.75em 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .75em;
+}
+
+.signup {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1.75em;
+  padding: 5px 12px;
+  font-size: 1.25em;
+}
+
+p, label.news {
+  line-height: 1.75;
+  color: #62676b;
+  text-align: center;
+  font-family: serif;
+  letter-spacing: 1px;
+  margin-bottom: 3em;
+}
+
+.news {
+  text-align: left;
+}
+
+.announcement {
+  border-bottom: 4px solid #000;
+}
+
+/*=====================
+Double Line Border
+=======================*/
+
+div:nth-of-type(2) {
+  border-top: 2px solid #000;
+  margin-top: 4px;
+}
+
+
+
+/*======================
+FIELDS
+======================*/
+
+.contact {
+  border-bottom: 2px solid #000;
+}
+
+input[type="email"]:-moz-placeholder,
+input[type="text"]:-moz-placeholder {
+    text-align: right;
+    font-family: serif;
+    font-style: italic;
+}
+input[type="email"]:-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder {
+    text-align: right;
+    font-family: serif;
+    font-style: italic;
+}
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder {
+    text-align: right;
+    font-family: serif;
+    font-style: italic;
+}
+
+fieldset {
+  margin-top: 30px;
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.contact label {
+  display: block;
+  margin-top: 5px;
+  color: #62676b;
+  font-size: 1em;
+  font-family: serif;
+}
+
+fieldset label:first-of-type {
+  margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 1em;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #fff;
+  color: #62676b;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-radius: 5px;
+}
+
+#zip {
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+select {
+  padding: 6px;
+  height: 45px;
+  border-radius: 2px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #1f6aa7;
+  background-color: #FFFBCC;
+}
+
+button:hover, button:focus {
+  background: #158479;
+  color: #FFFBCC;
+}
+
+
+/*=====================
+CHECKBOXES
+=======================*/
+
+input[type="checkbox"] {
+  color: #eee;
+  margin: 20px 4px 8px 0;
+  width: 15px;
+  height: 15px;
+}
+
+input:checked + label {
+  font-weight: 900;
+  font-size: 1em;
+  color: #000;
+}
+
+label.check {
+  font-size: .90em;
+  margin-left: 10px;
+  display: inline;
+  color: #62676b;
+
+}
+
+.format {
+  margin-top: 1em;
+  line-height: 2.75;
+  color: #62676b;
+  text-align: left;
+  font-family: serif;
+  letter-spacing: 1px;
+}
+
+label.radio {
+  display: inline;
+  color: #62676b;
+  margin-left: 10px;
+}
+
+textarea {
+  margin-top: 1em;
+  height: 120px;
+}
+
+button {
+  font-family: serif;
+  padding: 19px 39px 18px;
+  color: #fff;
+  background: #1cb0a1;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 1em;
+  border: none;
+}
+
+p.italic {
+  font-style: italic;
+  color: #62676b;
+}
+
+
+.form-wraper {
+    background-color: #eee;
+}
+
+
+
+
+/*========================
+MEDIA QUERIES
+=========================*/
+
+@media (min-width: 759px) {
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    margin-left: 8em;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .contact label {
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+  }
+
+  #zip {
+    width: 30%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border: 2px solid #1f6aa7;
+  }
+}
+
+
+
+
+
+
+
+
