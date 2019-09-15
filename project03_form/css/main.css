@@ -246,7 +246,7 @@ p.italic {
 MEDIA QUERIES
 =========================*/
 
-@media (min-width: 759px) {
+@media (min-width: 768px) {
   .container {
     width: 50%;
     margin: 0 auto;
