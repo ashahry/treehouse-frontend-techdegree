@@ -31,7 +31,7 @@ MAIN HEADER
 header {
   width: 100%;
   top: 0;
-  background: #102c3a;
+  background: #1cb0a1;
   color: #fff;
   padding: 1.75em 0;
   text-align: center;
@@ -162,7 +162,7 @@ select {
 input:focus,
 select:focus,
 textarea:focus {
-  border: 2px solid #1f6aa7;
+  border: 2px solid #1cb0a1;
   background-color: #FFFBCC;
 }
 
@@ -244,13 +244,14 @@ p.italic {
 
 /* Transition */
 
-.threed:hover {
+.contact input:hover,
+textarea:hover {
   box-shadow:
-    1px 1px rgb(117, 110, 110),
-    2px 2px #eee,
+    3px 3px #1cb0a1,
+    3px 3px #eee,
     3px 3px #eee;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px);
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
 }
 
 
@@ -292,6 +293,6 @@ MEDIA QUERIES
   input:focus,
   select:focus,
   textarea:focus {
-    border: 2px solid #1f6aa7;
+    border: 2px solid #1cb0a1;
   }
 }
