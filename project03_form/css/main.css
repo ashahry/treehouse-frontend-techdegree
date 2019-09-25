@@ -164,12 +164,14 @@ select:focus,
 textarea:focus {
   border: 2px solid #1cb0a1;
   background-color: #FFFBCC;
+  transition: all 0.3s;
 }
 
 button:hover,
 button:focus {
   background: #158479;
   color: #FFFBCC;
+  transition: all 0.3s;
 }
 
 
@@ -262,6 +264,7 @@ textarea:focus {
     3px 3px #eee;
   -webkit-transform: translateX(-5px);
   transform: translateX(-5px);
+  transition: all 0.3s;
 }
 
 
@@ -304,5 +307,6 @@ MEDIA QUERIES
   select:focus,
   textarea:focus {
     border: 2px solid #1cb0a1;
+    transition: all 0.3s;
   }
 }
