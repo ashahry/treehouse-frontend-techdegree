@@ -1,1 +1,1 @@
-# treehouse-frontend-techdegree
+# Treehouse Frontend Techdegree
