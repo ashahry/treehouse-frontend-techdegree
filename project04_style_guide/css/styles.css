@@ -452,18 +452,28 @@ textarea {
 
 .default {
   background-color: #51ddfc; }
+  .default:hover {
+    background: #83e7fd; }
 
 .error {
   background-color: #e4757a; }
+  .error:hover {
+    background: #eca0a3; }
 
 .info {
   background-color: #927bc1; }
+  .info:hover {
+    background: #af9ed1; }
 
 .success {
   background-color: #63cc82; }
+  .success:hover {
+    background: #89d9a1; }
 
 .warning {
   background-color: #fd7856; }
+  .warning:hover {
+    background: #fea088; }
 
 /* ============================================= */
 /*              Forms                            */
