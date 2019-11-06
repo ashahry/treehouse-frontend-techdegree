@@ -448,32 +448,34 @@ textarea {
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition-property: background-color;
+  transition-duration: .4s; }
 
 .default {
   background-color: #51ddfc; }
   .default:hover {
-    background: #83e7fd; }
+    background: #9cecfd; }
 
 .error {
   background-color: #e4757a; }
   .error:hover {
-    background: #eca0a3; }
+    background: #f1b5b8; }
 
 .info {
   background-color: #927bc1; }
   .info:hover {
-    background: #af9ed1; }
+    background: #bdafd9; }
 
 .success {
   background-color: #63cc82; }
   .success:hover {
-    background: #89d9a1; }
+    background: #9ddfb0; }
 
 .warning {
   background-color: #fd7856; }
   .warning:hover {
-    background: #fea088; }
+    background: #feb4a2; }
 
 /* ============================================= */
 /*              Forms                            */
