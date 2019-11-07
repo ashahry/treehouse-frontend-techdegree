@@ -10,12 +10,13 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition-property: background-color;
-  transition-duration: .4s;
+  transition: background .3s ease-in-out;
+  cursor: pointer;
 }
 
 .default {
   background-color: $blue;
+
 
   &:hover {
     background: lighten($blue, 15%);
