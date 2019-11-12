@@ -576,10 +576,17 @@ textarea {
   padding: 14px;
   border: 1px solid #cccccc; }
 
+.img-frame:hover {
+  transform: scale(1.1); }
+
 .img-logo {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); }
 
 /* ============================================= */
 /*              Navigation                       */
