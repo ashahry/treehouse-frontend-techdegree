@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@include breakpoint(sm){
+@include breakpoint($sm){
 
   .container {
       max-width: 1400px;
